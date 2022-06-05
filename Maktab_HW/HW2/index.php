@@ -1,1 +1,2 @@
 <?php
+$dna = "hygsafdsabdfcijgsad gsa";
