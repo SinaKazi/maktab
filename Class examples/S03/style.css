@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+}
+.box {
+    box-shadow: 1px 1px 11px 0px #e3e3e3;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    margin-right: 340px;
+    margin-top: 50px;
+}
+.matn-on-box {
+    width: 40%;
+    float: right;
+    padding: 0px 62px;
+    margin-top: 60px;
+}
+.title-box::before {
+    content: '';
+    height: 0;
+    width: 100%;
+    border-top: 2px solid rgb(0, 0, 0);
+    display: block;
+}
+.img-under-box {
+    position: relative;
+    bottom: 349px;
+    right: -149px;
+    height: 500px;
+    width: 600px;
+}
+.photographer-name {
+    position: absolute;
+    bottom: 83px;
+    left: 0px;
+    background: #000;
+    color: #fff;
+    padding: 6px 13px;
+    border-radius: 0 5px 0 0;
+    font-size: 13px;
+}
+button {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    padding: 10px 33px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.name-photo i {
+    margin-right: 6px;
+}

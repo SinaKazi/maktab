@@ -1,11 +1,11 @@
 <?php
 //Q yakhdarchi
 
-$t = 110;
+$t = 90;
 
 if ($t > 100) {
     echo "steam";
-} elseif ($t < 100) {
+} elseif ($t < 0) {
     echo "ice";
 } else {
     echo "water";
